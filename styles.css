@@ -1,0 +1,165 @@
+
+body {
+    font-family: 'Creepster', cursive;
+    line-height: 1.9;
+    margin: 25px;
+    padding: 0;
+    background-color: #6a6161;
+}
+h1 {
+    text-shadow: 2px 2px 4px #000000; 
+    animation: creepy 3s infinite; /
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.artist {
+    margin-bottom: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+}
+th {
+    background-color: #f2f2f2;
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+p {
+    font-family: Arial, sans-serif; 
+    color: #666; 
+}
+h2 {
+    font-family: Arial, sans-serif; 
+    color: red; 
+}
+input[type="submit"] {
+    width: auto;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+.artists {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+}
+.artist {
+    width: 300px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    transition: transform 0.5s ease;
+}
+.artist:hover {
+    transform: translateY(-5px);
+}
+.artist img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    width:"80px" ;
+    height:"80px";
+}
+.artist h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+}
+.artist p {
+    color: #666;
+    line-height: 1.6;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+form{
+    background: #4CAF;
+
+}
+
+.menu {
+    background-color: #110f0f;
+    overflow: hidden;
+}
+.menu a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+.menu a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.carousel {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.carousel-images {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.carousel-images img {
+    width: 50%;
+    flex: 0 0 100%;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    transform: translateY(-50%);
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+

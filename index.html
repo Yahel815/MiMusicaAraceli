@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Musica</title>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <header>
+        <div class="titul">
+            <h1 >Mi musica</h1>
+            <p>Explora nuevos artistas y sus mejores canciones</p>
+        </div>
+    </header>
+    <div class="menu">
+       
+        <a href="pagina2.html">Sobre Nosotros</a>
+     
+        <a href="Contacto.html">Contacto</a>
+    </div>
+
+    <div class="carousel">
+        <div class="carousel-images">
+            <img src="imgr1.jpeg" alt="Imagen 1">
+            <img src="rimg2.jpg" alt="Imagen 2">
+            <img src="rimg3.jpg" alt="Imagen 3">
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+
+    <div class="container">
+        <section class="artists">
+            <div class="artist">
+                <img src="r2.jpeg" alt="Artista 1">
+                <h2>Rammstein</h2>
+                <p> Una banda alemana de metal industrial fundada en 1993 </p>
+            </div>
+            <div class="artist">
+                <img src="bon2.jpeg" alt="Artista 2">
+                <h2>Bon Jovi</h2>
+                <p>Bon Jovi es una banda estadounidense de
+                     rock formada en 1983 en Nueva Jersey</p>
+            </div>
+          
+           
+        </section>
+
+        <div class="artista">
+
+            <h2 >Rammstein</h2>
+            <img src="rammstein.jpeg" alt="Imagen del Artista 1">
+            <p aria-setsize="8">Rammstein fue formado en 1994 por proletarios criados en Alemania del Este.
+                 Tomaron su nombre de la ciudad de Ramstein, en cuya base aérea ocurrió un 
+                 accidente durante un espectáculo, tres aeronaves italianas colisionaron contra el público. 
+                 Para transformar el nombre añadieron una "m"; de este modo surgió "Rammstein"
+                  que literalmente significa Piedra rameante, o catapulta hecha de piedra..</p>
+                  <h3>Integrantes</h3>
+                  <ul style="list-style-type: circle">
+                    <li>Till Lindemann</li>
+                    <li>Richard Z. Kruspe</li>
+                    <li>Christian Lorenz</li>
+                    <li>Paul Landers</li>
+                    <li>Oliver Riedel</li>
+                </ul>
+                
+        </div>
+
+        <div class="artista">
+            <h2>Bon Jovi</h2>
+            <img src="bonjo.jpg" alt="Imagen del Artista 2">
+            <p>John Francis Bongiovi Jr. (Perth Amboy, Nueva Jersey; 2 de marzo de 1962), conocido por su nombre artístico 
+                Jon Bon Jovi, es un músico, actor, compositor, filántropo y productor discográfico estadounidense,
+                 reconocido por ser el vocalista y líder de la banda de rock Bon Jovi.​</p>
+                 <p>
+                    Desde 2009 forma parte del Salón de la Fama de los Compositores y desde 2018 del Salón de la Fama del Rock and Roll 
+                    (en este último como miembro de Bon Jovi).2​ En 2006 la revista Hit Parader lo colocó en el puesto 31
+                     en su lista de Los 100 mejores vocalistas del metal de todos los tiempos,​ en 2012 se situó en el número
+                      50 en la lista Power 100 de Billboard sobre las 100 personas más influyentes en el negocio de la música,
+                      4​ y en 2000 la revista People lo catalogó como la estrella de rock más sexy.
+                 </p>
+                 <h3>Integrantes</h3>
+                 <ul style="list-style-type: circle">
+
+                    <li>Jon Bon Jovi</li>
+                    <li>Richie Sambora</li>
+                    <li>Alec John Such</li>
+                    <li>Tico Torres</li>
+                    <li>David Bryan</li>
+                    <li>Phil X</li>
+                </ul>
+                 
+        </div>
+
+        <h2>Top Canciones</h2>
+        <table>
+            <tr>
+                <th>Artista</th>
+                <th>Album</th>
+                <th>Cancion</th>
+            </tr>
+            <tr>
+                <td>Rammstein</td>
+                <td><img src="duhast.jpg"  width="80" height="110"></td>
+                <td>Du Hast</td>
+            </tr>
+            <tr>
+                <td>Bon Jovi</td>
+                <td><img src="itsmylife.jpeg"></td>
+                <td> It's my life</td>
+            </tr>
+  
+        </table>
+        <h1> Un poco de ellos</h1>
+       <center> <video  src="bon_video.mp4" width="640" height="360" controls></video> </center>
+
+        <center><video  src="ramss_video.mp4" width="640" height="360" controls></video> </center>
+    
+    </div>
+    
+</body>
+</html>
